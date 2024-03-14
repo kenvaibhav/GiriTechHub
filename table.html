@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 80%;
+            min-height: 400px;
+            border: 1px solid black;
+            margin: auto;
+            padding: 120px;
+        }
+        table,tr,th,td{
+            border: 1px solid black;
+            border-collapse: collapse ; /*this is for removing two borders*/
+            text-align: center;
+            font-size: large;
+        }
+        table{
+            width: 700px;
+            box-shadow: 5px 10px 5px gray;
+        }
+        table th{
+            background-color: royalblue;
+            color: aliceblue;
+        }
+        table tr:nth-child(odd){  /* for even/odd rows coloring */
+            background-color: burlywood; 
+        }
+        table tr:hover{
+            background-color: purple;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="box">
+
+        <center>
+            <table>
+                <tr>
+                    <th>Student Id</th>
+                    <th>Student Name</th>
+                    <th>Student Mobile</th>
+                    <th>Student Address</th>
+                    <th>Profile Img</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Ajay Sharma</td>
+                    <td>1234567890</td>
+                    <td>Shivaji Nagar</td>
+                    <td><img src="Imgs/u1.png" /></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>vijay verma</td>
+                    <td>3456567890</td>
+                    <td>Sambhaji Nagar</td>
+                    <td><img src="Imgs/u2.png" /></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Vaibhav kendre</td>
+                    <td>9657832448</td>
+                    <td>Guru Nagar</td>
+                    <td><img src="Imgs/u1.png" /></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Vaishnavi kendre</td>
+                    <td>9234889282</td>
+                    <td>Guru Nagar</td>
+                    <td><img src="Imgs/u3.png" /></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Vishakha</td>
+                    <td>9233989282</td>
+                    <td>Mumbai</td>
+                    <td><img src="Imgs/u3.png" /></td>
+                </tr>
+                
+
+                
+            </table>
+        </center>
+   
+    </div>
+    
+</body>
+</html>
